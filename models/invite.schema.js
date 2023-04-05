@@ -20,7 +20,7 @@ const inviteSchema = new mongoose.Schema({
     },
     description:{
         venue:{type:String,required:false},
-        time:{type:Date,default: FormDataEvent}
+        
     
     },
     

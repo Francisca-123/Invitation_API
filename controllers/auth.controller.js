@@ -1,5 +1,5 @@
 const personModel = require('../models/person.schema')
-const { AuthForbiddenException, ValidationException, NotFoundException } = require('../@helpers/errorHandlers')
+const { AuthForbiddenException, ValidationException, NotFoundException } = require('../@helpers/error.handlers')
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 

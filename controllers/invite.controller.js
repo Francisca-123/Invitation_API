@@ -76,3 +76,8 @@ async function cancelInvite(req, res, next){
     }
 
 }
+
+module.exports = {
+    generateInvite,
+    cancelInvite
+}
